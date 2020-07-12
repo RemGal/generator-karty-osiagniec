@@ -15,7 +15,7 @@ alert(pochodzenie.value + przeszlosc.value + rola.value);
 
 var pdf = new jsPDF();
 
-pdf.addImage(getImageFromUrl("images/" + pochodzenie.value + ".png"), "PNG", 0, 0, pdf.internal.pageSize.getWidth(), pdf.internal.pageSize.getHeight(), "karta", 180);
+pdf.addImage(getImageFromUrl("images/" + pochodzenie.value + ".png"), "PNG", 0, 0, pdf.internal.pageSize.getWidth(), pdf.internal.pageSize.getHeight());
 
 
 pdf.save('karta_osiagniec.pdf');
