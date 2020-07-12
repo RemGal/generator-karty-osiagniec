@@ -2,25 +2,10 @@
   font-family: 'MedievalSharp-Regular';
   src: url('fonts/MedievalSharp-Regular.ttf');
 }
-
-#container {
-  //height: 400px;
-  //width: 400px;
-  position: absolute;
-  //margin-top: 300px;
+image {
+  position: relative;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-#image {
-  position: absolute;
-}
-#text {
-  z-index: 100;
-  position: absolute;
-  font-size: 24px;
-  font-weight: bold;
-  left: 150px;
-  top: 350px;
 }
 
 div.out {
