@@ -3,7 +3,7 @@
   src: url('fonts/MedievalSharp-Regular.ttf');
 }
 image {
-  position: relative;
+  position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
 }
