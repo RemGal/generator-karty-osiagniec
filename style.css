@@ -12,7 +12,7 @@
   transform: translate(-50%, -50%);
 }
 #image {
-  position: absolute;
+  position: relative;
 }
 #text {
   z-index: 100;
@@ -24,7 +24,7 @@
 }
 
 div.out {
-  position: relative;
+  position: absolute;
   margin-top: 30px;
   left: 50%;
   transform: translate(-50%, -50%);
