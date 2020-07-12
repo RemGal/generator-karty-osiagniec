@@ -3,13 +3,12 @@
   src: url('fonts/MedievalSharp-Regular.ttf');
 }
 image {
-
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 div.out {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 div.in {
