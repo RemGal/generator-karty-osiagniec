@@ -13,7 +13,7 @@ var przeszlosc = document.getElementById("przeszlosc");
 var rola = document.getElementById("rola");
 alert(pochodzenie.value + przeszlosc.value + rola.value);
 
-var pdf = new jsPDF();
+var pdf = new jsPDF('p', 'pt', 'a4');
 pdf.addImage(getImageFromUrl("images/" + pochodzenie.value + ".png"), "PNG", 0, 0, 1654, 2339, "karta", 180, 180);
 
 
