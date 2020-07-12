@@ -10,12 +10,15 @@ image {
 
 div.out {
   position: absolute;
-  margin-top: 30px;
+}
+
+div.in {
+  position: relative;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-div.in {
+div.util {
   position: relative;
   font-family: 'MedievalSharp-Regular';
   font-size: 32px;
