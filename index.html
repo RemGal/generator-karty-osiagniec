@@ -4,13 +4,15 @@
   <script src="script.js"></script>	
   <link rel="stylesheet" href="style.css"/>
   <head>
-    
+    <div id="container">
+     <img id="image" src="images/instrukcja.png" />
+     <p id="text">Hello World!</p>
+    </div>
   </head>
   <body>
    <div class=out>
     <img id="image" src="images/instrukcja.png"/>
-    <div class=in>
-     <div class=util>
+     <div class=in>
       <label for="pochodzenie">Pochodzenie:</label>
       <select id="pochodzenie">
        <option value="arystokracja">Arystokracja</option>
@@ -45,10 +47,9 @@
       </select>
 
      </div>
-     <div class=util>
+     <div class=in>
       <button onclick="PobierzKarte()">POBIERZ</button>
      </div>
-    </div>
    </div>
   </body>
 </html>
