@@ -14,7 +14,7 @@ var rola = document.getElementById("rola");
 alert(pochodzenie.value + przeszlosc.value + rola.value);
 
 var pdf = new jsPDF();
-pdf.addImage(getImageFromUrl("images/" + pochodzenie.value + ".png"), "PNG", 101, 101, 100, 100, "karta", 100, 90);
+pdf.addImage(getImageFromUrl("images/" + pochodzenie.value + ".png"), "PNG");
 
 
 pdf.save('karta_osiagniec.pdf');
