@@ -56,13 +56,13 @@ align-content:center;
     }
 
 
-.instrukcja {
-  font-size: 24px;
+.stara-wersja {
+  font-size: 16px;
   font-family: 'MedievalSharp-Regular';
   font-weight: bold;
   position: absolute;
-  top: 8px;
-  left: 16px;
+  bottom: 8px;
+  right: 16px;
 
 }
 
