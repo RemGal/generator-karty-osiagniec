@@ -10,6 +10,7 @@ function PobierzKarte()
   var pochodzenie = document.getElementById("pochodzenie");
   var przeszlosc = document.getElementById("przeszlosc");
   var rola = document.getElementById("rola");
+  const { jsPDF } = window.jspdf;
   var pdf = new jsPDF();
   pdf.addImage(getImage("images/" + pochodzenie.value + ".png"), "PNG", 0, 0, pdf.internal.pageSize.getWidth(), pdf.internal.pageSize.getHeight());
   pdf.addImage(getImage("images/" + przeszlosc.value + ".png"), "PNG", 0, 0, pdf.internal.pageSize.getWidth(), pdf.internal.pageSize.getHeight());
