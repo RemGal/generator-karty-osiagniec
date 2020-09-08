@@ -26,7 +26,7 @@ align-content:center;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     align-self: auto;
-    margin: 2px;
+    margin: 40px;
     }
 
 .flex-container-horizontal{
@@ -56,14 +56,39 @@ align-content:center;
     }
 
 
+.flex-container-selectors{
+display:-webkit-flex;
+display:flex;
+-webkit-flex-direction:column;
+flex-direction:column;
+-webkit-justify-content:center;
+justify-content:center;
+-webkit-align-items:center;
+align-items:center;
+-webkit-align-content:center;
+align-content:center;
+}
+
+.flex-item-selectors {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    margin: 2px;
+    }
+
 .stara-wersja {
-  font-size: 16px;
+  font-size: 12px;
   font-family: 'MedievalSharp-Regular';
   font-weight: bold;
   position: absolute;
   bottom: 8px;
   right: 16px;
-
 }
 
 label {
